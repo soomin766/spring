@@ -79,5 +79,5 @@ async def tutorial(ctx):
     embed.set_thumbnail(url="https://i.imgur.com/nifzVtD.gif")
     await ctx.send(embed=embed)
 
-access_token = os.environ['BOT TOKEN']
+access_token = os.environ['BOT_TOKEN']
 bot.run("NzU2MDI0NzQ0OTQzNDE5NDAy.X2L06Q.I9sWjmp7o9WS-6VRB3KR1bpDPsQ")
