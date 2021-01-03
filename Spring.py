@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import random
+import os
 
 bot = commands.Bot(command_prefix='!')
 
@@ -78,5 +79,5 @@ async def tutorial(ctx):
     embed.set_thumbnail(url="https://i.imgur.com/nifzVtD.gif")
     await ctx.send(embed=embed)
 
-
+access_token = os.environ['BOT TOKEN']
 bot.run("NzU2MDI0NzQ0OTQzNDE5NDAy.X2L06Q.giyht_3KWKnP4tvYflyIXLEuCxY")
