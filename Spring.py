@@ -80,4 +80,4 @@ async def tutorial(ctx):
     await ctx.send(embed=embed)
 
 access_token = os.environ['BOT TOKEN']
-bot.run("NzU2MDI0NzQ0OTQzNDE5NDAy.X2L06Q.giyht_3KWKnP4tvYflyIXLEuCxY")
+bot.run("NzU2MDI0NzQ0OTQzNDE5NDAy.X2L06Q.I9sWjmp7o9WS-6VRB3KR1bpDPsQ")
